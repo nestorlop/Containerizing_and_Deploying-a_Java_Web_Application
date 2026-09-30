@@ -360,19 +360,10 @@ docker logs virtualization-lab
 
 ![EC2 Deployment](img/image.png)
 
-*Screenshot showing `docker ps`, container logs, and successful curl response from the public EC2 endpoint.*
+
 
 ## Deployment Architecture
-
-```mermaid
-flowchart TD
-    Client[("Client\nBrowser / curl")] -->|HTTP :8080| SG[["Security Group\nAllow 22, 8080"]]
-    SG --> EC2[["EC2 Instance\nAmazon Linux 2023"]]
-    EC2 --> Docker[["Docker Engine"]]
-    Docker --> Container[["Container\nvirtualization-lab:1.0\nPort 9000"]]
-    Container --> App[("Spring Boot App\n/greeting")]
-```
-
+![alt text](img/Diagram.png)
 ### Layer Responsibilities
 
 | Layer | Responsibility |
