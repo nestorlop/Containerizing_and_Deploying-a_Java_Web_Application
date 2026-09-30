@@ -358,7 +358,7 @@ docker logs virtualization-lab
 
 ### Evidence
 
-![EC2 Deployment](ec2-deployment.png)
+![EC2 Deployment](img/image.png)
 
 *Screenshot showing `docker ps`, container logs, and successful curl response from the public EC2 endpoint.*
 
@@ -409,27 +409,11 @@ flowchart TD
 | Medium | 100,000 |
 | Large | 1,000,000 |
 
-### AWS Pricing Calculator
 
-Estimates were obtained using the [AWS Pricing Calculator](https://calculator.aws/) including EC2 compute, EBS storage, and data transfer.
 
-![AWS Pricing Calculator](aws-pricing-estimate.png)
 
-*Export from AWS Pricing Calculator showing the three scenarios.*
 
-### Cost per Request
 
-Formula: **Monthly Infrastructure Cost / Monthly Requests**
-
-| Scenario | Monthly Requests | Monthly Infrastructure Cost | Estimated Cost per Request | Main Cost Drivers |
-|----------|------------------|----------------------------|----------------------------|-------------------|
-| Small | 10,000 | $[To fill] | $[To fill] / 10k | EC2 runtime, EBS storage |
-| Medium | 100,000 | $[To fill] | $[To fill] / 100k | EC2 runtime, EBS, data transfer |
-| Large | 1,000,000 | $[To fill] | $[To fill] / 1M | Instance capacity, transfer, scaling needs |
-
-### Cost Comparison
-
-[To be completed with actual calculator results]
 
 ## Architectural Discussion
 
