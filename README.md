@@ -352,7 +352,7 @@ docker logs virtualization-lab
 
 ### Public Endpoint
 
-**URL:** `http://<EC2-PUBLIC-DNS>:8080/greeting?name=AWS`
+
 
 **Expected response:** `Hello, AWS!`
 
