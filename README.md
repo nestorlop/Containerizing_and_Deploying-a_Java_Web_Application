@@ -299,16 +299,6 @@ docker push <dockerhub-user>/virtualization-lab:1.0
 docker push <dockerhub-user>/virtualization-lab:latest
 ```
 
-### Repository
-
-**URL:** `https://hub.docker.com/r/<dockerhub-user>/virtualization-lab`
-
-### Evidence
-
-![Docker Hub Tags](dockerhub-tags.png)
-
-*Screenshot showing the repository with both `1.0` and `latest` tags.*
-
 ## AWS EC2 Deployment
 
 ### EC2 Configuration
@@ -495,12 +485,6 @@ Trade-offs: cold starts (mitigated with provisioned concurrency), 15-minute max 
 | `dockerhub-tags.png` | Docker Hub repository with `1.0` and `latest` tags |
 | `ec2-deployment.png` | EC2 container running with public endpoint test |
 | `aws-pricing-estimate.png` | AWS Pricing Calculator export for three scenarios |
-
-## Useful Links
-
-- **GitHub Repository**: [To be filled]
-- **Docker Hub**: `https://hub.docker.com/r/<dockerhub-user>/virtualization-lab`
-- **AWS Pricing Calculator Estimate**: [To be filled with saved estimate link]
 
 ## Author
 
